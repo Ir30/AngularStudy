@@ -19,4 +19,3 @@ Step 2-Register on module.ts
     AppComponent,
     NavbarComponent
   ],
-  
