@@ -19,3 +19,9 @@ Step 2-Register on module.ts
     AppComponent,
     NavbarComponent
   ],
+
+****************************
+DATA SHARING BETWEEN COMPONENTS
+******************************
+
+1.from parent to child (@input decorator)
