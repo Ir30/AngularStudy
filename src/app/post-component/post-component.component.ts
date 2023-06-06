@@ -10,6 +10,8 @@ export class PostComponentComponent implements OnInit {
   }
   @Input() parentMessage:any;
 
+  childMessage='Message from child'
+
   ngOnInit():void{
 
   }
