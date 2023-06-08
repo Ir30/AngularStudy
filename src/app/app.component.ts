@@ -18,4 +18,12 @@ export class AppComponent implements AfterViewInit {
       console.log(this.postChild)
       this.message=this.postChild.childMessage
   }
+
+  //this function trigered after emiting the event from child
+  reciveChildMessage:string='befor emiting'
+  listenChildEvent=($event: any)=>{
+    // console.log('hi');  
+    console.log($event)
+    this.reciveChildMessage=$event
+  }
 }

@@ -1,5 +1,6 @@
 <p>Angular App</p>
 <h3>{{message}}</h3>
+<h4>{{reciveChildMessage}}</h4>
 <app-navbar></app-navbar>
-<app-post-component [parentMessage]="parentMessage"></app-post-component>
+<app-post-component [parentMessage]="parentMessage" (childEvent)='listenChildEvent($event)'></app-post-component>
 <router-outlet></router-outlet>
